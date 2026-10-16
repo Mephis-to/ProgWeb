@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Cursos{% endblock %} | Cursos</title>
+  <link rel="stylesheet" href="/estilo.css">
+</head>
+<body>
+  <main class="caixa">
+    <nav aria-label="Navegação principal"><a href="/">Cursos</a></nav>
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>

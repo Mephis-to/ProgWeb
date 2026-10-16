@@ -1,0 +1,91 @@
+{
+    "uc": "Programação Web",
+    "professor": 
+        {
+            "nome" : "João",
+            "sobrenome": "Almeida",
+            "email": "joao.almeida@escola.pt"
+        },
+    "curso": "Ciência da Computação",
+    "grupos": [
+        {
+            "designacao": "G01",
+            "alunos": [
+                {
+                    "numero": 5791,
+                    "nome": "Sofia",
+                    "sobrenome": "Pereira",
+                    "telefone": "+351 928869753",
+                    "email": "sofia.pereira@outlook.com",
+                    "foto_perfil": "5791.jpeg"
+                },
+                {
+                    "numero": 9318,
+                    "nome": "Paula",
+                    "sobrenome": "Oliveira",
+                    "telefone": "+351 931055514",
+                    "email": "paula.oliveira@outlook.com",
+                    "foto_perfil": "9318.jpeg"
+                },
+                {
+                    "numero": 2622,
+                    "nome": "João",
+                    "sobrenome": "Silva",
+                    "telefone": "+351 911574173",
+                    "email": "joao.silva@outlook.com",
+                    "foto_perfil": "2622.jpeg"
+                }
+            ]
+        },
+        {
+            "designacao": "G02",
+            "alunos": [
+                {
+                    "numero": 3816,
+                    "nome": "Maria",
+                    "sobrenome": "Santos",
+                    "telefone": "+351 998510676",
+                    "email": "maria.santos@outlook.com",
+                    "foto_perfil": "3816.jpeg"
+                },
+                {
+                    "numero": 2621,
+                    "nome": "Carlos",
+                    "sobrenome": "Silva",
+                    "telefone": "+351 974446500",
+                    "email": "carlos.silva@yahoo.com",
+                    "foto_perfil": "2621.jpeg"
+                }
+            ]
+        },
+        {
+            "designacao": "G03",
+            "alunos": [
+                {
+                    "numero": 5708,
+                    "nome": "Ricardo",
+                    "sobrenome": "Costa",
+                    "telefone": "+351 916365188",
+                    "email": "ricardo.costa@outlook.com",
+                    "foto_perfil": "5708.jpeg"
+                },
+                {
+                    "numero": 7851,
+                    "nome": "Isabel",
+                    "sobrenome": "Oliveira",
+                    "telefone": "+351 912494415",
+                    "email": "isabel.oliveira@outlook.com",
+                    "foto_perfil": "7851.jpeg"
+                },
+                {
+                    "numero": 1243,
+                    "nome": "Carlos",
+                    "sobrenome": "Pereira",
+                    "telefone": "+351 901588568",
+                    "email": "carlos.pereira@outlook.com",
+                    "foto_perfil": "1243.jpeg"
+                }
+            ]
+        }
+    ]
+}

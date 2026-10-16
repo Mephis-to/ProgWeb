@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}{{ student.full_name }}{% endblock %}
+{% block content %}
+  <h1>{{ student.full_name }}</h1>
+  <dl class="detalhes-aluno">
+    <dt>Número de aluno</dt><dd>{{ student.numero }}</dd>
+    <dt>Telefone</dt><dd>{{ student.telefone }}</dd>
+    <dt>Email</dt><dd>{{ student.email }}</dd>
+  </dl>
+  <p>
+    <a href="{{ url_for('class_page', course_slug=student.course_slug, class_slug=student.class_slug) }}">
+      &larr; Voltar a {{ student.class_title }}
+    </a>
+  </p>
+{% endblock %}

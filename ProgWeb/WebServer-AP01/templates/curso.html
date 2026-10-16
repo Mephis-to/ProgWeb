@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ course.title }}{% endblock %}
+{% block content %}
+  <h1>{{ course.title }}</h1>
+  <h2>Turmas</h2>
+  <ul>
+    {% for classroom in classes %}
+      <li>
+        <a href="{{ url_for('class_page', course_slug=course.slug, class_slug=classroom.slug) }}">
+          {{ classroom.title }}
+        </a>
+      </li>
+    {% else %}
+      <li>Não existem turmas registadas.</li>
+    {% endfor %}
+  </ul>
+  <p><a href="/">&larr; Voltar aos cursos</a></p>
+{% endblock %}
